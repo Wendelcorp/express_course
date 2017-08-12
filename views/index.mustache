@@ -1,6 +1,9 @@
-<h1>{{Subject}}</h1>
 <ul>
-  {{#names}}
-    <li>{{name}}</li>
-  {{/names}}
+  {{#tvShows}}
+    <li>{{.}}</li>
+  {{/tvShows}}
 </ul>
+<form class="name-submission" method="post">
+  <input type="text" name="name" value="">
+  <input type="Submit" name="" value="Submit">
+</form>
